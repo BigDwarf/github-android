@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GitHub</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_logout">Выйти</string>
+    <string name="username">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="enterLogPass">Пожалуйста, введите логин и/или пароль</string>
+    <string name="wrong_credentials">Неправильный логин и/или пароль</string>
+    <string name="no_network_connection">Пожалуйста, проверьте Ваше соединение с интернет</string>
+    <string name="cashed_copy">Вы видите кэшированную копию. Проверьте ваше подключение к интернет и обновите страницу.</string>
+    <string name="check_network_state">Проверьте ваше соединение с интернет и обновите страницу</string>
+    <string name="forks">Forks:</string>
+    <string name="watches">Watches:</string>
+    <string name="renew">Обновить</string>
+</resources>

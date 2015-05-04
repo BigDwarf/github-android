@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TableRow>
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/repoName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/authorName"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <TableRow>
+         <TextView
+            android:text="@string/forks"/>
+         <TextView
+            android:id="@+id/forks"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView
+            android:text="@string/watches"/>
+        <TextView
+            android:id="@+id/watches"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </TableRow>
+</TableLayout>
